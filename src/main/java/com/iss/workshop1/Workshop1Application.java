@@ -21,7 +21,7 @@ public class Workshop1Application {
 	private static final String DEFAULT_PORT = "3000";
 	public static void main(String[] args) {
 		logger.info("Workshop 11");
-		// init the apring app
+		// init the Spring app
 		SpringApplication app = new SpringApplication(Workshop1Application.class);
 		// Decode the java app args using spring args helper
 		DefaultApplicationArguments appArgs = new DefaultApplicationArguments(args);
